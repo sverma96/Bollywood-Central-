@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollywood Central - Latest News & Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🎬 Bollywood Central</div>
+            <ul class="nav-menu">
+                <li><a href="#" onclick="showSection('home')" class="nav-link active">Home</a></li>
+                <li><a href="#" onclick="showSection('upcoming')" class="nav-link">Upcoming Movies</a></li>
+                <li><a href="#" onclick="showSection('starcast')" class="nav-link">Starcast</a></li>
+                <li><a href="#" onclick="showSection('leadroles')" class="nav-link">Lead Roles</a></li>
+                <li><a href="#" onclick="showSection('about')" class="nav-link">About</a></li>
+                <li><a href="#" onclick="showSection('contact')" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <h1 class="bounce">Welcome to Bollywood Central</h1>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; color: #666;">Your ultimate destination for Bollywood news, movies, and celebrity updates!</p>
+            
+            <h2>Latest Bollywood News</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <h3>🏆 Chhaava Breaks Box Office Records</h3>
+                    <p>Vicky Kaushal's historical epic Chhaava achieves record-breaking opening with ₹33.10 crores on Day 1 and ₹121.43 crores in opening weekend, setting new benchmarks for period dramas.</p>
+                </div>
+                <div class="news-card">
+                    <h3>📈 Dhadak 2 Continues Strong Run</h3>
+                    <p>The sequel starring Janhvi Kapoor maintains steady box office performance with 35% occupancy in noon shows on Day 5, proving the franchise's lasting appeal among audiences.</p>
+                </div>
+                <div class="news-card">
+                    <h3>🎬 War 2 Set for Major Action Sequences</h3>
+                    <p>Hrithik Roshan and Jr. NTR's highly anticipated sequel begins major action sequence filming in international locations. Director Ayan Mukerji promises spectacular visuals.</p>
+                </div>
+                <div class="news-card">
+                    <h3>🌟 Aamir Khan's Sitaare Zameen Par Update</h3>
+                    <p>The sequel to Taare Zameen Par featuring Aamir Khan enters post-production phase. The film explores themes of special needs education with renewed sensitivity and depth.</p>
+                </div>
+                <div class="news-card">
+                    <h3>💫 Baaghi 4 Action Choreography Complete</h3>
+                    <p>Tiger Shroff completes intensive action choreography for the fourth installment. Director Bhushan Kumar confirms the film will feature the franchise's most dangerous stunts yet.</p>
+                </div>
+                <div class="news-card">
+                    <h3>🎭 Mahavatar Narsimha Motion Poster Released</h3>
+                    <p>The mythological drama starring an ensemble cast unveils its striking motion poster, promising a grand cinematic experience with cutting-edge VFX and traditional storytelling.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Movies Section -->
+        <section id="upcoming" class="section">
+            <h2>🎬 Upcoming Bollywood Movies 2025</h2>
+            <div class="movie-grid">
+                <div class="movie-card pulse">
+                    <div class="movie-image">
+                        <img src="images/war2.jpg" alt="War 2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="movie-image placeholder" style="display: none;">
+                            <div>⚡<br><small>War 2<br>Poster</small></div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>War 2</h3>
+                        <p class="release-date">Release Date: August 2025</p>
+                        <p>Hrithik Roshan and Jr. NTR team up for this high-budget action thriller sequel. Directed by Ayan Mukerji, featuring international locations and death-defying stunts.</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image">
+                        <img src="images/baaghi4.jpg" alt="Baaghi 4" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="movie-image placeholder" style="display: none;">
+                            <div>💥<br><small>Baaghi 4<br>Poster</small></div>
+                        </div>
+                    </div>
+                <div class="movie-info">
+                        <h3>Baaghi 4</h3>
+                        <p class="release-date">Release Date: September 2025</p>
+                        <p>Tiger Shroff returns with the franchise's most dangerous stunts yet. The fourth installment promises to push the boundaries of action cinema in Bollywood.</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image">
+                        <img src="images/lahore-1947.jpg" alt="Lahore 1947" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="movie-image placeholder" style="display: none;">
+                            <div>🚂<br><small>Lahore 1947<br>Poster</small></div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Lahore 1947</h3>
+                        <p class="release-date">Release Date: September 2025</p>
+                        <p>Aamir Khan and Sunny Deol star in this Partition-era epic directed by Rajkumar Santoshi. Features an ambitious train sequence capturing the war-time drama.</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image">
+                        <img src="images/mahavatar-narsimha.jpg" alt="Mahavatar Narsimha" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="movie-image placeholder" style="display: none;">
+                            <div>🕉️<br><small>Mahavatar Narsimha<br>Poster</small></div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Mahavatar Narsimha</h3>
+                        <p class="release-date">Release Date: July 2025</p>
+                        <p>Epic mythological drama featuring cutting-edge VFX and traditional storytelling. Motion poster already creating buzz with its stunning visuals.</p>
+                    </div>
+                </div>
+
+                 <div class="movie-card">
+                    <div class="movie-image">
+                        <img src="images/sitaare-zameen-par.jpg" alt="Sitaare Zameen Par" style="width: 100%; height: 420px; object-fit: cover; border-radius: 10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="movie-image placeholder" style="display: none;">
+                            <div>⭐<br><small>Sitaare Zameen Par<br>Poster</small></div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Sitaare Zameen Par</h3>
+                        <p class="release-date">Release Date: June 2025</p>
+                        <p>Aamir Khan's sequel to the beloved Taare Zameen Par. A heartwarming story about special needs education with renewed depth and sensitivity.</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-image">
+                        <img src="images/saiyaara.jpg" alt="Saiyaara" style="width: 100%; height: 100% ; object-fit: cover; border-radius: 10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="movie-image placeholder" style="display: none;">
+                            <div>💝<br><small>Humnava<br>Poster</small></div>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Saiyaara</h3>
+                        <p class="release-date">Release Date: July 2025</p>
+                        <p>Yash Raj Films' romantic hit starring Ahaan Panday and Aneet Padda. A fresh love story about a musician and lyricist that has become 2025's biggest romantic blockbuster</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Starcast Section -->
+        <section id="starcast" class="section">
+            <h2>⭐ Popular Starcast</h2>
+            <div class="star-grid">
+                <div class="star-card">
+                    <div class="star-avatar">
+                     <img src="images/vicky-kaushal.jpg" alt="Vicky Kaushal">
+                    </div>   
+                    <h3>Vicky Kaushal</h3>
+                    <p>Box Office King</p>
+                    <p>Current box office champion with Chhaava breaking records. The versatile actor continues to deliver powerful performances in historical and contemporary roles.</p>
+                </div>
+
+                <div class="star-card">
+                    <div class="star-avatar">
+                     <img src="images/ahaan-pandey.jpg" alt="Ahaan Pandey">  
+                    </div>  
+                    <h3>Ahaan Panday</h3>
+                    <p>Rising Star</p>
+                    <p>Debut actor who struck gold with Saiyaara, creating box office history with 519% profit percentage. The new romantic hero of Gen Z audiences.</p>
+                </div>
+
+                <div class="star-card">
+                    <div class="star-avatar">
+                    <img src="images/shah-rukh-khan.jpg" alt="Shah Rukh Khan">  
+                    </div>     
+                    <h3>Shah Rukh Khan</h3>
+                    <p>King of Bollywood</p>
+                    <p>The legendary superstar continues to dominate global cinema with his upcoming projects and recent Met Gala 2025 appearance in New York.</p>
+                </div>
+
+                <div class="star-card">
+                    <div class="star-avatar">
+                    <img src="images/tiger-shroff.jpg" alt="Tiger Shroff">  
+                    </div>     
+                    <h3>Tiger Shroff</h3>
+                    <p>Action Icon</p>
+                    <p>Preparing for Baaghi 4 with the franchise's most dangerous stunts. His dedication to martial arts and parkour continues to push action cinema boundaries.</p>
+                </div>
+
+                <div class="star-card">
+                    <div class="star-avatar">
+                    <img src="images/aamir-khan.jpg" alt="Aamir Khan">  
+                    </div> 
+                    <h3>Aamir Khan</h3>
+                    <p>Mr. Perfectionist</p>
+                    <p>Returns with Sitaare Zameen Par, sequel to his beloved Taare Zameen Par. Known for choosing socially relevant subjects with mass appeal.</p>
+                </div>
+
+                <div class="star-card">
+                    <div class="star-avatar">
+                    <img src="images/aneet-pada.jpg" alt="Aneet Pada">  
+                    </div>     
+                    <h3>Aneet Padda</h3>
+                    <p>Debut Actress</p>
+                    <p>Co-star of the blockbuster Saiyaara, this newcomer has won hearts with her natural performance as the shy lyricist Vaani recovering from heartbreak.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Roles Section -->
+         <section id="leadroles" class="section">
+            <h2>🎭 Current Lead Roles & Projects</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <h3>💕 "Saiyaara" - Romantic Blockbuster</h3>
+                    <p><strong>Lead Actors:</strong> Ahaan Panday, Aneet Padda<br>
+                    <strong>Studio:</strong> Yash Raj Films<br>
+                    The romantic drama about musician Krish and lyricist Vaani has become 2025's biggest love story with ₹454.89 crore collection.</p>
+                </div>
+                <div class="news-card">
+                    <h3>🕵️ "Saare Jahan Se Accha" - Netflix Series</h3>
+                    <p><strong>Lead Actor:</strong> Pratik Gandhi<br>
+                    <strong>Supporting Cast:</strong> Tillotama Shome, Sunny Hinduja<br>
+                    1970s intelligence thriller premiering August 13 on Netflix, exploring the world of Indian spy operations.</p>
+                </div>
+                <div class="news-card">
+                    <h3>🏛️ "Lahore 1947" - Historical Epic</h3>
+                    <p><strong>Lead Actors:</strong> Sunny Deol, Vicky Kaushal<br>
+                    <strong>Producer:</strong> Aamir Khan<br>
+                    Rajkumar Santoshi's ambitious Partition-era drama featuring spectacular train sequences and war scenes.</p>
+                </div>
+                <div class="news-card">
+                    <h3>⚡ "War 2" - Action Thriller</h3>
+                    <p><strong>Lead Actors:</strong> Hrithik Roshan, Jr. NTR<br>
+                    High-budget action sequel bringing together Bollywood and South Indian cinema's biggest stars for an international thriller.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Bollywood Central</h2>
+            <div class="about-content">
+                <h3>Our Mission</h3>
+                <p>Bollywood Central is your premier destination for authentic, timely, and comprehensive coverage of the Indian film industry. We are passionate about bringing you the latest news, exclusive interviews, movie reviews, and behind-the-scenes content.</p>
+                
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>🎬 Latest Bollywood news and updates</li>
+                    <li>⭐ Celebrity interviews and profiles</li>
+                    <li>🎭 Movie reviews and ratings</li>
+                    <li>📺 Behind-the-scenes content</li>
+                    <li>🏆 Awards and recognition coverage</li>
+                    <li>💫 Upcoming releases and trailers</li>
+                </ul>
+                
+                <h3>Our Team</h3>
+                <p>Our dedicated team of entertainment journalists, film critics, and industry insiders work around the clock to ensure you never miss a moment of Bollywood magic. We pride ourselves on accurate reporting and exclusive access to the biggest stars and productions.</p>
+            </div>
+        </section>
+
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Bollywood Central</h2>
+            <div class="about-content">
+                <h3>Our Mission</h3>
+                <p>Bollywood Central is your premier destination for authentic, timely, and comprehensive coverage of the Indian film industry. We are passionate about bringing you the latest news, exclusive interviews, movie reviews, and behind-the-scenes content from the heart of Mumbai's film industry.</p>
+                
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>🎬 Real-time Bollywood news and box office updates</li>
+                    <li>⭐ Exclusive celebrity interviews and star profiles</li>
+                    <li>🎭 In-depth movie reviews and critical analysis</li>
+                    <li>📺 Behind-the-scenes content and set reports</li>
+                    <li>🏆 Awards coverage and industry recognition</li>
+                    <li>💫 Upcoming releases, trailers, and first looks</li>
+                    <li>📊 Box office collections and trade analysis</li>
+                    <li>🎵 Music reviews and soundtrack updates</li>
+                </ul>
+                
+                <h3>Our Team</h3>
+                <p>Our dedicated team of entertainment journalists, film critics, and industry insiders work around the clock to ensure you never miss a moment of Bollywood magic. We pride ourselves on accurate reporting, exclusive access to the biggest stars and productions, and maintaining the highest standards of entertainment journalism.</p>
+                
+                <h3>Connect With Industry</h3>
+                <p>We maintain strong relationships with production houses, talent agencies, and industry professionals to bring you verified news and exclusive content. Our network spans from established studios to independent filmmakers, ensuring comprehensive coverage of the entire Bollywood ecosystem.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem; color: #666;">Get in touch with us for collaborations, exclusive tips, press releases, or just to say hello!</p>
+            
+            <div class="contact-form">
+                <form onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select Subject</option>
+                            <option value="press-release">Press Release</option>
+                            <option value="interview-request">Interview Request</option>
+                            <option value="news-tip">News Tip</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message ✨</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Connect With Us</h3>
+                <div class="contact-details">
+                    <p>📧 <strong>General:</strong> info@bollywoodcentral.com</p>
+                    <p>📰 <strong>News Tips:</strong> newsroom@bollywoodcentral.com</p>
+                    <p>🎬 <strong>Press Releases:</strong> press@bollywoodcentral.com</p>
+                    <p>📱 <strong>Phone:</strong> +91-9876543210</p>
+                    <p>📍 <strong>Address:</strong> Film City, Goregaon East, Mumbai, Maharashtra 400065</p>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <p>🐦 Twitter: @BollywoodCentral</p>
+                    <p>📸 Instagram: @bollywoodcentral_official</p>
+                    <p>📘 Facebook: Bollywood Central</p>
+                    <p>📺 YouTube: Bollywood Central TV</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
